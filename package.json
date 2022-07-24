@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-intro",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:umairjibran/node-intro",
+  "author": "Umair Jibran <me@umairjibran.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
